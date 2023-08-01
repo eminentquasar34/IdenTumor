@@ -1,0 +1,221 @@
+/*html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: purple;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  
+}
+
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+  
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing:border-box ;
+
+    
+}
+
+body {
+    color:#17252a;
+
+}   
+
+.header {  
+    position: fixed ;
+  
+     top: 0;
+     left: 0;
+     width :100%;
+     background-color: transparent;
+     padding: 20px 10% ;
+     display:flex;
+     justify-content: space-between ;
+     align-items: center;
+     z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ffff;
+    text-decoration:none ;
+    font-weight: 600;
+
+ }
+
+ .navbar a  {
+
+    font-size: 18px;
+    color:  #ffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+
+    
+
+ }
+
+.navbar a:hover,
+.navbar a.active {
+    color: #17252a;
+  position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+     
+
+}
+
+.home{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background-color: #3aafa9;
+  
+    
+}
+
+.home-content {
+    max-width: 600px;
+
+}
+.home-content h1{
+  
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    
+  
+    
+
+}
+
+.home-content h1 span{
+color:#feffff;
+  border-bottom: 4px solid #2b7a78;
+  padding-bottom: 0px;
+ 
+    
+  
+    
+
+}
+
+
+.home-content p {
+    font-size: 15px;
+    margin: 20px 0 40px;
+
+}
+
+.home-content p span{
+  font-weight:700;
+  border-bottom: 4px solid #2b7a78;
+  padding-bottom: 0px;
+ 
+    
+  
+    
+
+}
+
+.image-home {
+  position:relative;
+  right:100px;
+  left:200px;
+  width:450px;
+  height:400px;
+  background:red;
+  background: url(brainpic.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+     width: 150px;
+     height:100%;
+     background-color: #17252a;
+     border: 3px solid #17252a;
+     border-radius: 8px;
+     font-size: 19px;
+     color: #ffff;
+     text-decoration: none;
+     font-weight: 600;
+     letter-spacing: 1px;
+     z-index: 1;
+     overflow: hidden;
+     transition: .5s;
+
+
+}
+
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: #17252a;
+
+}
+
+.btn-box a:nth-child(2):hover {
+    color: #ffff;
+
+}
+
+.btn-box a:hover:nth-child(2)::after {
+    background-color: #17252a;
+}
+
+
+.btn-box a:nth-child(1):hover {
+    color: #17252a;
+
+}
+
+
+
+
+.btn-box a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #2b7a78;
+    z-index: -1;
+    transition: .5s;
+}
+.btn-box a:hover::after {
+    width: 100%;
+}
+
