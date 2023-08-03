@@ -183,6 +183,7 @@ color:#feffff;
 
 
 
+
 .btn-box a::after {
     content: '';
     position: absolute;
@@ -197,4 +198,140 @@ color:#feffff;
 .btn-box a:hover::after {
     width: 100%;
 }
+
+
+/*THIS IS THE howto SECTION*/
+
+.Howto {
+    padding: 80px 0px;
+
+}
+
+.container-h {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap :wrap;
+
+}
+
+.flex {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 20px;
+
+}
+
+.Howto h2 {
+    font-size: 45px;
+    margin-bottom:20px;
+    color: #222;
+
+
+}
+
+.Howto h3 {
+    font-size: 22px;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.Howto p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 20px;
+
+
+}
+
+.Howto img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+/*.social-links {
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius:50%;
+    margin-right: 10px;
+    color: #ffff;
+    background: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0,0.3);
+    transition: all 0.4s ease;
+}
+
+.social-links a:hover {
+
+    transform: translateY(-3px);
+
+}
+*/
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase ;
+    border-radius: 5px;
+    background-color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0,0.3);
+    transition: all 0.4s ease;
+
+}
+.btn:hover {
+
+    transform: translateY(-3px);
+
+}
+
+@media screen and (max-width: 768px){
+    .row{
+        flex-direction:column ;
+    }
+    .flex{
+        max-width:100% ;
+
+    }
+    .Howto h2 {
+        font-size: 31px;
+    }
+
+    .Howto p {
+        font-size: 16px;
+    }
+    .btn {
+        font-size:16px ;
+        padding: 8px 16px;
+        margin-bottom: 30px;
+
+    }
+
+
+}
+
+
+
+
+
+
+
 
