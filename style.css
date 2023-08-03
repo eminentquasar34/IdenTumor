@@ -1,15 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-
-* {
+ 
+* { 
     margin: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing:border-box ;
 
+
     
 }
 
+html{
+    scroll-behavior: smooth;
+
+}
 body {
     color:#17252a;
 
@@ -21,7 +26,7 @@ body {
      top: 0;
      left: 0;
      width :100%;
-     background-color: transparent;
+     background-color: #3aafa9;
      padding: 20px 10% ;
      display:flex;
      justify-content: space-between ;
@@ -75,12 +80,12 @@ body {
 }
 
 .home-content {
-    max-width: 600px;
+    max-width: 800px;
 
 }
 .home-content h1{
   
-    font-size: 36px;
+    font-size: 42px;
     font-weight: 700;
     line-height: 1.2;
     
@@ -93,6 +98,7 @@ body {
 color:#feffff;
   border-bottom: 4px solid #2b7a78;
   padding-bottom: 0px;
+  
  
     
   
@@ -102,7 +108,7 @@ color:#feffff;
 
 
 .home-content p {
-    font-size: 15px;
+    font-size: 17px;
     margin: 20px 0 40px;
 
 }
@@ -124,7 +130,6 @@ color:#feffff;
   left:200px;
   width:450px;
   height:400px;
-  background:red;
   background: url(brainpic.png) no-repeat;
   background-size: cover;
   background-position: center;
@@ -147,7 +152,7 @@ color:#feffff;
      background-color: #17252a;
      border: 3px solid #17252a;
      border-radius: 8px;
-     font-size: 19px;
+     font-size: 22px;
      color: #ffff;
      text-decoration: none;
      font-weight: 600;
@@ -179,7 +184,6 @@ color:#feffff;
     color: #17252a;
 
 }
-
 
 
 
@@ -327,10 +331,6 @@ color:#feffff;
 
 
 }
-
-
-
-
 
 
 
