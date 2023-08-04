@@ -29,9 +29,9 @@
         <!--<h1 class="logo display:inline pl-2">IdenTumor</h1>-->
     </div>
         <nav class="navbar">
-            <a href="index.html" class="">Home</a>
+            <a href="{{ url_for('index') }}" class="">Home</a>
             <a href="#" class="active">About</a>
-            <a href="scan.html">Scan</a>
+            <a href="{{ url_for('predict_image') }}">Scan</a>
 
 
         </nav>

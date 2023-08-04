@@ -17,7 +17,7 @@ def index():
 
 @app.route('/about', methods=['GET'])
 def about():
-  pass
+  return render_template("about.html")
 @app.route('/scan', methods=['GET', 'POST'])
 def predict_image():
 
