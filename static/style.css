@@ -680,3 +680,55 @@ padding-bottom: 0px;
     
   
 }
+
+
+/* scan page */
+.scan{
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding: 0;
+  background-color: #3aafa9;
+
+  
+}
+
+.scan-content {
+  margin-top: 100px;
+  max-width: 100vw;
+
+}
+.scan-content h1{
+
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  
+
+  
+
+}
+
+.scan-content h1 span{
+color:#feffff;
+border-bottom: 4px solid #2b7a78;
+padding-bottom: 0px;
+  
+
+}
+
+
+.scan-content p {
+  font-size: 17px;
+  margin: 20px 0 20px;
+
+}
+
+.scan-content p span{
+font-weight:700;
+border-bottom: 4px solid #2b7a78;
+padding-bottom: 0px;
+
+
+}
