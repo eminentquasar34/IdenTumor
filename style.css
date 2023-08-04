@@ -526,3 +526,157 @@ a {
   
 
 
+/* about page */
+.about{
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  background-color: #3aafa9;
+
+  
+}
+
+.about-content {
+  margin-top: 100px;
+  max-width: 100vw;
+
+}
+.about-content h1{
+
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  
+
+  
+
+}
+
+.about-content h1 span{
+color:#feffff;
+border-bottom: 4px solid #2b7a78;
+padding-bottom: 0px;
+
+
+  
+
+  
+
+}
+
+
+.about-content p {
+  font-size: 17px;
+  margin: 20px 0 20px;
+
+}
+
+.about-content p span{
+font-weight:700;
+border-bottom: 4px solid #2b7a78;
+padding-bottom: 0px;
+
+  
+
+  
+
+}
+
+.about-content h2{
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  
+
+  
+
+}
+
+
+
+.numbers{
+  height: 75vh;
+  background-size: cover;
+  background-color: #282828;
+  width: 100vw;
+
+  
+}
+
+.numbers h2{
+
+  font-size: 200px;
+  font-weight: 700;
+  color: #3aafa9;
+
+}
+.numbers p{
+
+  
+  color: #3aafa9;
+
+}
+
+.train{
+  height: 75vh;
+  background-size: cover;
+  background-color: #ffffff;
+  width: 100vw;
+
+  
+}
+
+.train h2{
+
+  font-size: 200px;
+  font-weight: 700;
+    color: #17252a;
+    
+  
+}
+
+.train p{
+  color: #17252a;
+
+}
+
+
+.accuracy{
+  height: 75vh;
+  background-size: cover;
+  background-color: #3aafa9;
+  width: 100vw;
+
+  
+}
+
+.accuracy h2{
+
+  font-size: 200px;
+  font-weight: 700;
+    color: #ffffff;
+    
+  
+}
+
+.final{
+  height: 50vh;
+  background-size: cover;
+  background-color: #ffffff;
+  width: 100vw;
+
+  
+}
+
+.final h2{
+
+  font-size: 32px;
+  font-weight: 700;
+    color: #17252a;
+    
+  
+}
