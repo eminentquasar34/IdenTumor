@@ -40,7 +40,7 @@ def predict_image():
     max_preds = np.argmax(preds)
 
 
-    classification = "Tumor Detected: Unknown Class"
+    classification = "Tumor Detected"
     for cl in class_indices:
       if class_indices[cl] == max_preds:
         classification = cl
