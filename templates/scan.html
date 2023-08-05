@@ -38,9 +38,10 @@
       <input type="file" name="imagefile" class="form-control">
       <input type="submit" value="Predict Brain Tumor" class="form-control">
     </form>
-
+    <br>
+    <br>
     {% if prediction %}
-      <p class="text-success" class="text-center">{{ prediction }}</p>
+      <h1 class="text-center" class="scan-output">{{ prediction }}</p>
     {% endif %}
   </div>
 </section>

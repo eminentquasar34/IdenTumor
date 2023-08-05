@@ -40,7 +40,7 @@ def predict_image():
     max_preds = np.argmax(preds)
 
 
-    classification = "Unknown Class/Model could not determine"
+    classification = "Tumor Detected: Unknown Class"
     for cl in class_indices:
       if class_indices[cl] == max_preds:
         classification = cl
@@ -51,4 +51,4 @@ def predict_image():
     return render_template("scan.html")
 
 if __name__ == "__main__":
-  app.run()
+  app.run(debug=True)
