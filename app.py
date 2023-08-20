@@ -10,7 +10,7 @@ import os
 
 
 app = Flask(__name__)
-model = tf.keras.models.load_model(r'C:\Users\rauna\OneDrive\Desktop\brain_tumor\IdenTumor\models\tumor_type_model.h5')
+model = tf.keras.models.load_model(r'/Users/lumen/Documents/GitHub/IdenTumor/models/tumor_type_model.h5')
 @app.route('/', methods=['GET'])
 def index():
   return render_template("index.html")
